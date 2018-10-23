@@ -81,7 +81,7 @@ import {mapGetters} from 'vuex'
                 })
             },
             addListeners() {
-                this.channelsRef.on('child_added', snapshot => {
+                this.channelsRef.on('child_added', (snapshot) => {
                     this.channels.push(snapshot.val())
 
                     // set current channel

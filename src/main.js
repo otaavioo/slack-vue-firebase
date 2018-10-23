@@ -9,8 +9,7 @@ import auth from 'firebase/auth'
 
 Vue.config.productionTip = false
 
-console.log(process.env)
-    // Initialize Firebase
+// Initialize Firebase
 var config = {
     apiKey: "AIzaSyBObMJ6wyq-eb1Z69Q1-g_g14_5iJLh700",
     authDomain: "vuex-slack-c2da5.firebaseapp.com",
